@@ -1,0 +1,40 @@
+.cursor_pointer {cursor: pointer;}
+
+.pixelated { 
+	image-rendering: -webkit-optimize-contrast;
+}
+
+.element, .outer-container {
+	width: auto;
+	height: 75px;
+}
+
+.element, .outer-container2 {
+	width: auto;
+	height: 45px;
+}
+.outer-container {
+	position: relative;
+	
+}
+
+.outer-container2 {
+	position: relative;
+	overflow: hidden;
+}
+
+.inner-container {
+	position: absolute;
+	left: 0;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.inner-container::-webkit-scrollbar {
+	display: none;
+}
+
+.preview-image img {
+	width: 180px;
+	height: auto;
+}
